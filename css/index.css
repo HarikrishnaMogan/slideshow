@@ -30,7 +30,7 @@ body{
     height:30px;
     object-fit: contain;
     transform: translate(0,-50%);
-   
+    transition: all 1s ease;
     padding: 1%;
     border-radius: 50%;
    
@@ -58,5 +58,10 @@ body{
 }
 #image:hover{
   transform:scale(1.03);
+}
+#right:active,#left:active{
+    top:47.49%;
+    transform: scale(1.05);
+    background-color:rgb(43, 56, 58) ;
 }
 
