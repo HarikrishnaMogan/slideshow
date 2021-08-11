@@ -1,5 +1,6 @@
 let arr =["/img/1.jpg","/img/2.jpg","/img/3.jpg","/img/4.png","/img/5.jpg"];
-let i=-1;
+let i=0;
+image.src=arr[0];
 function changeimage()
 {
   i++;
