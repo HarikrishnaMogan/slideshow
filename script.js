@@ -28,7 +28,6 @@ function increment(bool)
 {
   if(bool==true)
   {
-    image.style.opacity="0";
     i++;
     if(i==arr.length)
     {
@@ -37,7 +36,6 @@ function increment(bool)
     image.src=arr[i];
   }
   else{
-    image.style.opacity="0";
       i--;
       if(i<0)
       {
@@ -45,5 +43,4 @@ function increment(bool)
       }
       image.src=arr[i];
   }
-  setTimeout(()=>{image.style.opacity="1";},400);
 }
